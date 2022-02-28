@@ -25,7 +25,7 @@
  *                      from the bottom up,starting with the two least probable bytes
  *                      in the frequency table. As a result, those bytes which more frequently 
  *                      that appears in the file will get the sorter bit sequence while those 
- *                      bytes more appears in the text will get the longer bit sequence. 
+ *                      bytes rarely appears in the text will get the longer bit sequence. 
  *                      The result of each bytes bit sequence will be stored in a table.
  *             
  *                      To compress a file's text we will read that bytes huffman code that 
