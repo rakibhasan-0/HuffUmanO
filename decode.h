@@ -28,7 +28,7 @@
  *                           read that compressed file byte for byte. We will traverse the tree.
  *                           Reaching a leaf node necessarily terminates the search for that
  *                           particular byte value. And that particular byte's symbol will get 
- *                           written in the compressed file.
+ *                           written in the decompressed file.
  * 
  * 
  * @param output_file        A file where the result will be stored(decompressed file).
